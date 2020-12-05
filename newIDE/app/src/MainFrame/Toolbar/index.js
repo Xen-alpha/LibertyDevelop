@@ -53,7 +53,7 @@ export class MainFrameToolbar extends PureComponent<Props, State> {
               onClick={this.props.exportProject}
               src="res/ribbon_default/export32.png"
               disabled={!this.props.hasProject}
-              tooltip={t`Export the game (Web, Android, iOS...)`}
+              tooltip={t`Export the game to JSON file`}
             />
           )}
           {this.isDev && (

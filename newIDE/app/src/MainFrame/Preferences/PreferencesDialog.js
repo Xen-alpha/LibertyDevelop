@@ -53,7 +53,7 @@ const PreferencesDialog = ({ onClose }: Props) => {
       onRequestClose={onClose}
       cannotBeDismissed={true}
       open
-      title={<Trans>GDevelop Preferences</Trans>}
+      title={<Trans>LibertyDevelop Preferences</Trans>}
       maxWidth="sm"
       noMargin
     >
@@ -96,19 +96,6 @@ const PreferencesDialog = ({ onClose }: Props) => {
               ))}
             </SelectField>
           </ResponsiveLineStackLayout>
-          <Line noMargin>
-            <Text>
-              <Trans>You can contribute and create your own themes: </Trans>
-            </Text>
-            <FlatButton
-              label={<Trans>Learn more</Trans>}
-              onClick={() => {
-                Window.openExternalURL(
-                  'https://github.com/4ian/GDevelop/tree/master/newIDE#theming'
-                );
-              }}
-            />
-          </Line>
           <Text size="title">
             <Trans>Layouts</Trans>
           </Text>

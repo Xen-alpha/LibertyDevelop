@@ -45,7 +45,7 @@ export type PlanDetails = {
 
 export const getSubscriptionPlans = (): Array<PlanDetails> => [
   {
-    planId: 'gdevelop_pro',
+    planId: 'GDevelop_pro',
     name: 'GDevelop Pro',
     monthlyPriceInEuros: 7,
     smallDescription: t`Ideal for advanced game makers`,
@@ -71,7 +71,7 @@ export const getSubscriptionPlans = (): Array<PlanDetails> => [
     extraDescription: t`You'll also have access to online packaging for iOS or other services when they are released.`,
   },
   {
-    planId: 'gdevelop_indie',
+    planId: 'GDevelop_indie',
     name: 'GDevelop Indie',
     monthlyPriceInEuros: 2,
     smallDescription: t`Ideal for beginners`,
@@ -102,7 +102,7 @@ export const getSubscriptionPlans = (): Array<PlanDetails> => [
     monthlyPriceInEuros: 0,
     descriptionBullets: [
       {
-        message: t`You can use GDevelop for free! Online packaging for Android, Windows, macOS and Linux is limited to twice a day (every 24 hours) to avoid overloading the services.`,
+        message: t`You can use LibertyDevelop for free! Online packaging for Android, Windows, macOS and Linux is limited to twice a day (every 24 hours) to avoid overloading the services.`,
       },
     ],
   },

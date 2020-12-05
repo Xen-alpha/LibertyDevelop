@@ -10,7 +10,7 @@ const styles = {
 
 const GDevelopLogo = () => (
   <ThemeConsumer>
-    {muiTheme => <img src={muiTheme.logo.src} alt="" style={styles.logo} />}
+    {muiTheme => <img src={muiTheme.logo.src} alt="LibertyDevelop Main Logo" style={styles.logo} />}
   </ThemeConsumer>
 );
 

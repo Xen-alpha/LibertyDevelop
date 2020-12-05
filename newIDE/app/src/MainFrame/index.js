@@ -105,7 +105,7 @@ import { type PreviewState } from './PreviewState.flow';
 
 const GD_STARTUP_TIMES = global.GD_STARTUP_TIMES || [];
 
-const gd: libGDevelop = global.gd;
+const gd: libLibertyDevelop = global.gd;
 
 const styles = {
   drawerContent: {
@@ -371,7 +371,7 @@ const MainFrame = (props: Props) => {
     // A change in the language will automatically be applied
     // on all React components, as it's handled by GDI18nProvider.
     // We still have this method that will be called when the language
-    // dialog is closed after a language change. We then reload GDevelop
+    // dialog is closed after a language change. We then reload LibertyDevelop
     // extensions so that they declare all objects/actions/condition/etc...
     // using the new language.
     gd.JsPlatform.get().reloadBuiltinExtensions();
@@ -414,7 +414,7 @@ const MainFrame = (props: Props) => {
           console.error(
             `💣 Dangerous exceptions while loading ${
               dangerousLoadingResults.length
-            } JS extensions. 🔥 Please check these errors as they will CRASH GDevelop:`,
+            } JS extensions. 🔥 Please check these errors as they will CRASH LibertyDevelop:`,
             dangerousLoadingResults
           );
         }
@@ -542,7 +542,7 @@ const MainFrame = (props: Props) => {
 
             const answer = Window.showConfirmDialog(
               i18n._(
-                t`An autosave file (backup made automatically by GDevelop) that is newer than the project file exists. Would you like to load it instead?`
+                t`An autosave file (backup made automatically by LibertyDevelop) that is newer than the project file exists. Would you like to load it instead?`
               )
             );
             if (!answer) return fileMetadata;
@@ -561,7 +561,7 @@ const MainFrame = (props: Props) => {
 
             const answer = Window.showConfirmDialog(
               i18n._(
-                t`The project file appears to be malformed, but an autosave file exists (backup made automatically by GDevelop). Would you like to try to load it instead?`
+                t`The project file appears to be malformed, but an autosave file exists (backup made automatically by LibertyDevelop). Would you like to try to load it instead?`
               )
             );
             if (!answer) return null;
@@ -613,7 +613,7 @@ const MainFrame = (props: Props) => {
           .catch(error => {
             const errorMessage = getOpenErrorMessage
               ? getOpenErrorMessage(error)
-              : t`Check that the path/URL is correct, that you selected a file that is a game file created with GDevelop and that is was not removed.`;
+              : t`Check that the path/URL is correct, that you selected a file that is a game file created with LibertyDevelop and that is was not removed.`;
             showErrorBox(
               [
                 i18n._(t`Unable to open the project.`),

@@ -100,7 +100,7 @@ export default class LanguageDialog extends Component<Props, State> {
                       primary={false}
                       onClick={() =>
                         Window.openExternalURL(
-                          'https://github.com/4ian/GDevelop/issues/969'
+                          'https://libertygame.miraheze.org/wiki/사용자토론:Senouis'
                         )
                       }
                     />,
@@ -115,7 +115,7 @@ export default class LanguageDialog extends Component<Props, State> {
                       <AlertMessage kind="info">
                         <Trans>
                           Support for translations is still new and in beta.
-                          GDevelop needs your help to be translated in your
+                          LibertyDevelop needs your help to be translated in your
                           language!
                         </Trans>
                       </AlertMessage>
@@ -123,7 +123,7 @@ export default class LanguageDialog extends Component<Props, State> {
                     <Line expand>
                       <SelectField
                         floatingLabelText={
-                          <Trans>Choose GDevelop language</Trans>
+                          <Trans>Choose LibertyDevelop language</Trans>
                         }
                         value={values.language}
                         onChange={(e, i, value: string) => {
@@ -154,7 +154,7 @@ export default class LanguageDialog extends Component<Props, State> {
                         }
                         onClick={() =>
                           Window.openExternalURL(
-                            'https://crowdin.com/project/gdevelop'
+                            'https://libertygame.miraheze.org/wiki/사용자토론:Senouis'
                           )
                         }
                         fullWidth

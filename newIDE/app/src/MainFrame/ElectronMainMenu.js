@@ -110,7 +110,7 @@ const buildAndSendMenuTemplate = (project, i18n, recentProjectFiles) => {
       },
       { type: 'separator' },
       {
-        label: i18n._(t`Export (web, iOS, Android)...`),
+        label: i18n._(t`Export ...`),
         accelerator: 'CommandOrControl+E',
         onClickSendEvent: 'main-menu-export',
         enabled: !!project,
@@ -141,7 +141,7 @@ const buildAndSendMenuTemplate = (project, i18n, recentProjectFiles) => {
       },
       { type: 'separator' },
       {
-        label: i18n._(t`Exit GDevelop`),
+        label: i18n._(t`Exit LibertyDevelop`),
         accelerator: 'Control+Q',
         onClickSendEvent: 'main-menu-close-app',
       }
@@ -197,36 +197,13 @@ const buildAndSendMenuTemplate = (project, i18n, recentProjectFiles) => {
     role: 'help',
     submenu: [
       {
-        label: i18n._(t`GDevelop website`),
-        onClickOpenLink: 'http://gdevelop-app.com',
+        label: i18n._(t`LibertyDevelop website`),
+        onClickOpenLink: 'https://libertygame.miraheze.org/wiki/리버티게임:대문',
       },
       { type: 'separator' },
       {
         label: i18n._(t`Community Forums`),
-        onClickOpenLink: 'https://forum.gdevelop-app.com',
-      },
-      {
-        label: i18n._(t`Community Discord Chat`),
-        onClickOpenLink: 'https://discord.gg/rjdYHvj',
-      },
-      { type: 'separator' },
-      {
-        label: i18n._(t`Contribute to GDevelop`),
-        onClickOpenLink: 'https://gdevelop-app.com/contribute/',
-      },
-      {
-        label: i18n._(t`Create Extensions for GDevelop`),
-        onClickOpenLink:
-          'https://github.com/4ian/GDevelop/blob/master/newIDE/README-extensions.md',
-      },
-      { type: 'separator' },
-      {
-        label: i18n._(t`Help to Translate GDevelop`),
-        onClickOpenLink: 'https://crowdin.com/project/gdevelop',
-      },
-      {
-        label: i18n._(t`Report a wrong translation`),
-        onClickOpenLink: 'https://github.com/4ian/GDevelop/issues/969',
+        onClickOpenLink: 'https://libertygame.miraheze.org/wiki/리버티게임:오락실',
       },
     ],
   };
@@ -234,7 +211,7 @@ const buildAndSendMenuTemplate = (project, i18n, recentProjectFiles) => {
     helpTemplate.submenu.push(
       { type: 'separator' },
       {
-        label: i18n._(t`About GDevelop`),
+        label: i18n._(t`About LibertyDevelop`),
         onClickSendEvent: 'main-menu-open-about',
       }
     );
@@ -250,10 +227,10 @@ const buildAndSendMenuTemplate = (project, i18n, recentProjectFiles) => {
 
   if (isMacLike()) {
     template.unshift({
-      label: i18n._(t`GDevelop 5`),
+      label: i18n._(t`LibertyDevelop`),
       submenu: [
         {
-          label: i18n._(t`About GDevelop`),
+          label: i18n._(t`About LibertyDevelop`),
           onClickSendEvent: 'main-menu-open-about',
         },
         { type: 'separator' },

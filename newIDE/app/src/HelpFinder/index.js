@@ -63,7 +63,7 @@ export default class HelpFinder extends React.PureComponent<Props, State> {
             key="forum"
             primary={false}
             onClick={() => {
-              Window.openExternalURL('https://forum.gdevelop-app.com');
+              Window.openExternalURL('https://libertygame.miraheze.org/wiki/리버티게임:오락실');
             }}
             label={<Trans>Community forum</Trans>}
           />,
@@ -72,7 +72,7 @@ export default class HelpFinder extends React.PureComponent<Props, State> {
             primary={false}
             onClick={() => {
               Window.openExternalURL(
-                'http://wiki.compilgames.net/doku.php/gdevelop5/start'
+                'https://libertygame.miraheze.org/wiki/리버티게임:도움말'
               );
             }}
             label={<Trans>Wiki</Trans>}

@@ -11,7 +11,7 @@ import { Spacer, Line } from '../UI/Grid';
 
 export default class BetaIntroDialog extends Component {
   _onOpenWebsite() {
-    Window.openExternalURL('http://gdevelop-app.com');
+    Window.openExternalURL('https://libertygame.miraheze.org');
   }
 
   render() {
@@ -21,11 +21,11 @@ export default class BetaIntroDialog extends Component {
       <ResponsiveWindowMeasurer>
         {windowWidth => (
           <Dialog
-            title={<Trans>Welcome to GDevelop</Trans>}
+            title={<Trans>Welcome to LibertyDevelop</Trans>}
             actions={[
               <FlatButton
                 key="download"
-                label={<Trans>Download GDevelop desktop app</Trans>}
+                label={<Trans>Go to Libertygame</Trans>}
                 primary={false}
                 onClick={this._onOpenWebsite}
               />,
@@ -43,19 +43,13 @@ export default class BetaIntroDialog extends Component {
             <div>
               <Text>
                 <Trans>
-                  This is a version of GDevelop 5 that you can try online.
+                  This is a version of LibertyDevelop that you can try online.
                 </Trans>
               </Text>
               <Text>
                 Choose a <b>new project to create</b>, then edit the scene or
                 the events ruling the game. You can{' '}
                 <b>launch a preview of your game</b> at any time.
-              </Text>
-              <Text>
-                <Trans>
-                  Download the full version of GDevelop on your desktop computer
-                  to create your own game without limits!
-                </Trans>
               </Text>
               {windowWidth === 'small' &&
                 (!Window.isFullscreen() ? (
@@ -64,7 +58,7 @@ export default class BetaIntroDialog extends Component {
                     <Text>
                       <Trans>
                         You're working on a small screen. It's recommended to
-                        activate Fullscreen Mode for using GDevelop.
+                        activate Fullscreen Mode for using LibertyDevelop.
                       </Trans>
                     </Text>
                     <Line justifyContent="center">
@@ -84,7 +78,7 @@ export default class BetaIntroDialog extends Component {
                 ) : (
                   <Line justifyContent="center">
                     <RaisedButton
-                      label={<Trans>Start using GDevelop</Trans>}
+                      label={<Trans>Start using LibertyDevelop</Trans>}
                       primary
                       onClick={onClose}
                     />

@@ -113,7 +113,7 @@ export class StartPage extends React.Component<Props, State> {
                     <GDevelopLogo />
                     <Text>
                       <Trans>
-                        GDevelop is an easy-to-use game creator with no
+                        LibertyDevelop is an easy-to-use game creator with no
                         programming language to learn.
                       </Trans>
                     </Text>
@@ -175,13 +175,13 @@ export class StartPage extends React.Component<Props, State> {
               <Line alignItems="center" justifyContent="space-between">
                 <Line>
                   <FlatButton
-                    label={<Trans>About GDevelop</Trans>}
+                    label={<Trans>About LibertyDevelop</Trans>}
                     onClick={onOpenAboutDialog}
                   />
                   <FlatButton
-                    label={<Trans>GDevelop Forums</Trans>}
+                    label={<Trans>LibertyDevelop Forums</Trans>}
                     onClick={() =>
-                      Window.openExternalURL('https://forum.gdevelop-app.com')
+                      Window.openExternalURL('https://libertygame.miraheze.org/wiki/리버티게임:오락실')
                     }
                   />
                   <FlatButton
@@ -198,20 +198,6 @@ export class StartPage extends React.Component<Props, State> {
                     label={i18n.language}
                     onClick={onOpenLanguageDialog}
                     icon={<Language />}
-                  />
-                  <IconButton
-                    className="icon-facebook"
-                    onClick={() =>
-                      Window.openExternalURL(
-                        'https://www.facebook.com/GDevelopApp'
-                      )
-                    }
-                  />
-                  <IconButton
-                    className="icon-twitter"
-                    onClick={() =>
-                      Window.openExternalURL('https://twitter.com/GDevelopApp')
-                    }
                   />
                   <IconButton
                     className="icon-discord"

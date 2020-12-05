@@ -33,7 +33,7 @@ export default class ChangelogDialog extends React.Component<Props, State> {
 
     return (
       <Dialog
-        title={<Trans>What's new in GDevelop?</Trans>}
+        title={<Trans>What's new in LibertyDevelop?</Trans>}
         actions={actions}
         open={open}
         onRequestClose={onClose}
@@ -41,7 +41,7 @@ export default class ChangelogDialog extends React.Component<Props, State> {
       >
         <Text>
           <Trans>
-            GDevelop was upgraded to a new version! Check out the changes.
+            LibertyDevelop was upgraded to a new version! Check out the changes.
           </Trans>
         </Text>
         <Changelog

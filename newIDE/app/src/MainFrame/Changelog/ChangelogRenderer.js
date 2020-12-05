@@ -27,7 +27,7 @@ type Props = {|
  */
 const ChangelogRenderer = ({ releases, error, currentReleaseName }: Props) => {
   const openReleaseNote = () =>
-    Window.openExternalURL('https://github.com/4ian/GDevelop/releases');
+    Window.openExternalURL('https://github.com/Xen-alpha/LibertyDevelop/tree/JSExtract');
 
   if (error) {
     return (
