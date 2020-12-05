@@ -100,9 +100,9 @@ class Bootstrapper extends Component<{}, State> {
       : 'Please restart the application or reinstall the latest version if the problem persists.';
 
     this.setState({
-      loadingMessage: `Unable to load GDevelop. ${message}`,
+      loadingMessage: `Unable to load LibertyDevelop. ${message}`,
     });
-    showErrorBox(`Unable to load GDevelop. ${message}`, err);
+    showErrorBox(`Unable to load LibertyDevelop. ${message}`, err);
   }
 
   render() {

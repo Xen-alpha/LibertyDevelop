@@ -1,4 +1,0 @@
-﻿  main.cpp
-D:\LibertyDevelop\ExtLibs\SFML\include\SFML/Window/WindowHandle.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-D:\LibertyDevelop\Core\GDCore/Tools/DynamicLibrariesTools.h(40): error C2059: 구문 오류: '__declspec(dllimport)'
-D:\LibertyDevelop\GDCpp\Runtime\main.cpp(167): error C3861: 'chdir': 식별자를 찾을 수 없습니다.
