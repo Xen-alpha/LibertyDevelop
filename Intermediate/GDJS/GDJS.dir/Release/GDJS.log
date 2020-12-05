@@ -1,0 +1,74 @@
+﻿  JsCodeEvent.cpp
+  EventsCodeGenerator.cpp
+  BaseObjectExtension.cpp
+D:\LibertyDevelop\GDJS\GDJS\Extensions\Builtin\BaseObjectExtension.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  CommonInstructionsExtension.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\type_traits(16707566): warning C4267: '인수': 'size_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\type_traits(16707566): note: 컴파일 중인 함수 템플릿 인스턴스화 'void std::_Invoker_functor::_Call<_Fx&,gd::BaseEvent&,gd::EventsCodeGenerator&,gd::EventsList&,_Ty>(_Callable,gd::BaseEvent &,gd::EventsCodeGenerator &,gd::EventsList &,_Ty &&) noexcept(false)'에 대한 참조를 확인하십시오.
+          with
+          [
+              _Fx=gdjs::CommonInstructionsExtension::{ctor}::<lambda_29bb692e29034ac55ebf0e0b352c333c>,
+              _Ty=size_t,
+              _Callable=gdjs::CommonInstructionsExtension::{ctor}::<lambda_29bb692e29034ac55ebf0e0b352c333c> &
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\type_traits(16707566): note: 컴파일 중인 함수 템플릿 인스턴스화 'void std::invoke<_Fx&,gd::BaseEvent&,gd::EventsCodeGenerator&,gd::EventsList&,size_t>(_Callable,gd::BaseEvent &,gd::EventsCodeGenerator &,gd::EventsList &,size_t &&) noexcept(false)'에 대한 참조를 확인하십시오.
+          with
+          [
+              _Fx=gdjs::CommonInstructionsExtension::{ctor}::<lambda_29bb692e29034ac55ebf0e0b352c333c>,
+              _Callable=gdjs::CommonInstructionsExtension::{ctor}::<lambda_29bb692e29034ac55ebf0e0b352c333c> &
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\functional(16707566): note: 컴파일 중인 함수 템플릿 인스턴스화 'void std::_Invoker_ret<_Rx,true>::_Call<_Callable&,gd::BaseEvent&,gd::EventsCodeGenerator&,gd::EventsList&,_Ty>(_Callable &,gd::BaseEvent &,gd::EventsCodeGenerator &,gd::EventsList &,_Ty &&)'에 대한 참조를 확인하십시오.
+          with
+          [
+              _Rx=void,
+              _Callable=gdjs::CommonInstructionsExtension::{ctor}::<lambda_29bb692e29034ac55ebf0e0b352c333c>,
+              _Ty=size_t
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\functional(16707566): note: 컴파일 중인 함수 템플릿 인스턴스화 'void std::_Invoker_ret<_Rx,true>::_Call<_Callable&,gd::BaseEvent&,gd::EventsCodeGenerator&,gd::EventsList&,_Ty>(_Callable &,gd::BaseEvent &,gd::EventsCodeGenerator &,gd::EventsList &,_Ty &&)'에 대한 참조를 확인하십시오.
+          with
+          [
+              _Rx=void,
+              _Callable=gdjs::CommonInstructionsExtension::{ctor}::<lambda_29bb692e29034ac55ebf0e0b352c333c>,
+              _Ty=size_t
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\functional(15732480): note: 클래스 템플릿 멤버 함수 '_Rx std::_Func_impl_no_alloc<gdjs::CommonInstructionsExtension::{ctor}::<lambda_29bb692e29034ac55ebf0e0b352c333c>,_Rx,gd::BaseEvent &,gd::EventsCodeGenerator &,gd::EventsList &,size_t>::_Do_call(gd::BaseEvent &,gd::EventsCodeGenerator &,gd::EventsList &,size_t &&)'을(를) 컴파일하고 있습니다.
+          with
+          [
+              _Rx=void
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\functional(1061): note: 컴파일 중인 클래스 템플릿 인스턴스화 'std::_Func_impl_no_alloc<gdjs::CommonInstructionsExtension::{ctor}::<lambda_29bb692e29034ac55ebf0e0b352c333c>,_Ret,gd::BaseEvent &,gd::EventsCodeGenerator &,gd::EventsList &,size_t>'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ret=void
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\functional(1320): note: 컴파일 중인 클래스 템플릿 인스턴스화 'std::_Is_large<_Impl>'에 대한 참조를 확인하세요.
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\functional(1502): note: 컴파일 중인 함수 템플릿 인스턴스화 'void std::_Func_class<_Ret,gd::BaseEvent &,gd::EventsCodeGenerator &,gd::EventsList &,size_t>::_Reset<gdjs::CommonInstructionsExtension::{ctor}::<lambda_29bb692e29034ac55ebf0e0b352c333c>>(_Fx &&)'에 대한 참조를 확인하십시오.
+          with
+          [
+              _Ret=void,
+              _Fx=gdjs::CommonInstructionsExtension::{ctor}::<lambda_29bb692e29034ac55ebf0e0b352c333c>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\functional(1502): note: 컴파일 중인 함수 템플릿 인스턴스화 'void std::_Func_class<_Ret,gd::BaseEvent &,gd::EventsCodeGenerator &,gd::EventsList &,size_t>::_Reset<gdjs::CommonInstructionsExtension::{ctor}::<lambda_29bb692e29034ac55ebf0e0b352c333c>>(_Fx &&)'에 대한 참조를 확인하십시오.
+          with
+          [
+              _Ret=void,
+              _Fx=gdjs::CommonInstructionsExtension::{ctor}::<lambda_29bb692e29034ac55ebf0e0b352c333c>
+          ]
+  D:\LibertyDevelop\GDJS\GDJS\Extensions\Builtin\CommonInstructionsExtension.cpp(56): note: 컴파일 중인 함수 템플릿 인스턴스화 'std::function<void (gd::BaseEvent &,gd::EventsCodeGenerator &,gd::EventsList &,size_t)>::function<gdjs::CommonInstructionsExtension::{ctor}::<lambda_29bb692e29034ac55ebf0e0b352c333c>,void>(_Fx)'에 대한 참조를 확인하십시오.
+          with
+          [
+              _Fx=gdjs::CommonInstructionsExtension::{ctor}::<lambda_29bb692e29034ac55ebf0e0b352c333c>
+          ]
+  D:\LibertyDevelop\GDJS\GDJS\Extensions\Builtin\CommonInstructionsExtension.cpp(47): note: 컴파일 중인 함수 템플릿 인스턴스화 'std::function<void (gd::BaseEvent &,gd::EventsCodeGenerator &,gd::EventsList &,size_t)>::function<gdjs::CommonInstructionsExtension::{ctor}::<lambda_29bb692e29034ac55ebf0e0b352c333c>,void>(_Fx)'에 대한 참조를 확인하십시오.
+          with
+          [
+              _Fx=gdjs::CommonInstructionsExtension::{ctor}::<lambda_29bb692e29034ac55ebf0e0b352c333c>
+          ]
+  JoystickExtension.cpp
+  MouseExtension.cpp
+  SceneExtension.cpp
+  JsPlatform.cpp
+D:\LibertyDevelop\GDJS\GDJS\Extensions\JsPlatform.cpp(195): error C2059: 구문 오류: '__declspec(dllexport)'
+D:\LibertyDevelop\GDJS\GDJS\Extensions\JsPlatform.cpp(195): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+D:\LibertyDevelop\GDJS\GDJS\Extensions\JsPlatform.cpp(195): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+  코드를 생성하고 있습니다...

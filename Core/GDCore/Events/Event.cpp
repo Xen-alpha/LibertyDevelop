@@ -58,8 +58,7 @@ gd::String BaseEvent::GenerateEventCode(
         return allEvents[type].codeGeneration(*this, codeGenerator, context);
     }
   } catch (...) {
-    std::cout << "ERROR: Exception caught during code generation for event \""
-              << type << "\"." << std::endl;
+    std::cout << "ERROR: Exception caught during code generation for event \"" << type << "\"." << std::endl;
   }
 
   return "";
@@ -101,8 +100,7 @@ void BaseEvent::Preprocess(gd::EventsCodeGenerator& codeGenerator,
             *this, codeGenerator, eventList, indexOfTheEventInThisList);
     }
   } catch (...) {
-    std::cout << "ERROR: Exception caught during preprocessing of event \""
-              << type << "\"." << std::endl;
+    std::cout << "ERROR: Exception caught during preprocessing of event \"" << type << "\"." << std::endl;
   }
 }
 

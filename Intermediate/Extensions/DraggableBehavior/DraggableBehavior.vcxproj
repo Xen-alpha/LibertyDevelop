@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{42C8370D-AAE7-317A-8A9B-9AF53E63E0AA}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>DraggableBehavior</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\LibertyDevelop\Binaries\Output\Release_Windows\CppPlatform\Extensions\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">DraggableBehavior.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">DraggableBehavior</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.xgdwe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\LibertyDevelop\Binaries\Output\Release_Windows\CppPlatform\Extensions\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">DraggableBehavior.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">DraggableBehavior</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.xgdwe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\LibertyDevelop\Binaries\Output\Release_Windows\CppPlatform\Extensions\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">DraggableBehavior.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">DraggableBehavior</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.xgdwe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\LibertyDevelop\Binaries\Output\Release_Windows\CppPlatform\Extensions\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">DraggableBehavior.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">DraggableBehavior</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.xgdwe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\LibertyDevelop\ExtLibs\SFML\include;D:\LibertyDevelop\Core;D:\LibertyDevelop\GDCpp;D:\LibertyDevelop\Extensions\DraggableBehavior\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS; GD_IDE_ONLY=1;RELEASE;WINDOWS;GD_CORE_API=__declspec(dllimport);GD_API=__declspec(dllimport);GD_EXTENSION_API=__declspec(dllexport);__GNUWIN32__;CMAKE_INTDIR="Debug";DraggableBehavior_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS; GD_IDE_ONLY=1;RELEASE;WINDOWS;GD_CORE_API=__declspec(dllimport);GD_API=__declspec(dllimport);GD_EXTENSION_API=__declspec(dllexport);__GNUWIN32__;CMAKE_INTDIR=\"Debug\";DraggableBehavior_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\LibertyDevelop\ExtLibs\SFML\include;D:\LibertyDevelop\Core;D:\LibertyDevelop\GDCpp;D:\LibertyDevelop\Extensions\DraggableBehavior\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\LibertyDevelop\ExtLibs\SFML\include;D:\LibertyDevelop\Core;D:\LibertyDevelop\GDCpp;D:\LibertyDevelop\Extensions\DraggableBehavior\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\Binaries\Output\Release_Windows\Debug\GDCpp.lib;ws2_32.lib;user32.lib;opengl32.lib;glu32.lib;psapi.lib;..\..\..\Binaries\Output\Release_Windows\Debug\GDCore.lib;..\..\ExtLibs\SFML\lib\Debug\sfml-audio-d.lib;..\..\..\ExtLibs\SFML\extlibs\libs-msvc-universal\x64\openal32.lib;..\..\..\ExtLibs\SFML\extlibs\libs-msvc-universal\x64\vorbisenc.lib;..\..\..\ExtLibs\SFML\extlibs\libs-msvc-universal\x64\vorbisfile.lib;..\..\..\ExtLibs\SFML\extlibs\libs-msvc-universal\x64\vorbis.lib;..\..\..\ExtLibs\SFML\extlibs\libs-msvc-universal\x64\ogg.lib;..\..\..\ExtLibs\SFML\extlibs\libs-msvc-universal\x64\flac.lib;..\..\ExtLibs\SFML\lib\Debug\sfml-graphics-d.lib;..\..\..\ExtLibs\SFML\extlibs\libs-msvc-universal\x64\freetype.lib;..\..\..\ExtLibs\SFML\extlibs\libs-msvc-universal\x64\jpeg.lib;..\..\ExtLibs\SFML\lib\Debug\sfml-window-d.lib;gdi32.lib;..\..\ExtLibs\SFML\lib\Debug\sfml-network-d.lib;..\..\ExtLibs\SFML\lib\Debug\sfml-system-d.lib;winmm.lib;ws2_32.lib;user32.lib;opengl32.lib;glu32.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/LibertyDevelop/Binaries/Output/Release_Windows/CppPlatform/Extensions/Debug/DraggableBehavior.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/LibertyDevelop/Binaries/Output/Release_Windows/CppPlatform/Extensions/Debug/DraggableBehavior.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\LibertyDevelop\ExtLibs\SFML\include;D:\LibertyDevelop\Core;D:\LibertyDevelop\GDCpp;D:\LibertyDevelop\Extensions\DraggableBehavior\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG; GD_IDE_ONLY=1;RELEASE;WINDOWS;GD_CORE_API=__declspec(dllimport);GD_API=__declspec(dllimport);GD_EXTENSION_API=__declspec(dllexport);__GNUWIN32__;CMAKE_INTDIR="Release";DraggableBehavior_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG; GD_IDE_ONLY=1;RELEASE;WINDOWS;GD_CORE_API=__declspec(dllimport);GD_API=__declspec(dllimport);GD_EXTENSION_API=__declspec(dllexport);__GNUWIN32__;CMAKE_INTDIR=\"Release\";DraggableBehavior_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\LibertyDevelop\ExtLibs\SFML\include;D:\LibertyDevelop\Core;D:\LibertyDevelop\GDCpp;D:\LibertyDevelop\Extensions\DraggableBehavior\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\LibertyDevelop\ExtLibs\SFML\include;D:\LibertyDevelop\Core;D:\LibertyDevelop\GDCpp;D:\LibertyDevelop\Extensions\DraggableBehavior\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\Binaries\Output\Release_Windows\Release\GDCpp.lib;ws2_32.lib;user32.lib;opengl32.lib;glu32.lib;psapi.lib;..\..\..\Binaries\Output\Release_Windows\Release\GDCore.lib;..\..\ExtLibs\SFML\lib\Release\sfml-audio.lib;..\..\..\ExtLibs\SFML\extlibs\libs-msvc-universal\x64\openal32.lib;..\..\..\ExtLibs\SFML\extlibs\libs-msvc-universal\x64\vorbisenc.lib;..\..\..\ExtLibs\SFML\extlibs\libs-msvc-universal\x64\vorbisfile.lib;..\..\..\ExtLibs\SFML\extlibs\libs-msvc-universal\x64\vorbis.lib;..\..\..\ExtLibs\SFML\extlibs\libs-msvc-universal\x64\ogg.lib;..\..\..\ExtLibs\SFML\extlibs\libs-msvc-universal\x64\flac.lib;..\..\ExtLibs\SFML\lib\Release\sfml-graphics.lib;..\..\..\ExtLibs\SFML\extlibs\libs-msvc-universal\x64\freetype.lib;..\..\..\ExtLibs\SFML\extlibs\libs-msvc-universal\x64\jpeg.lib;..\..\ExtLibs\SFML\lib\Release\sfml-window.lib;gdi32.lib;..\..\ExtLibs\SFML\lib\Release\sfml-network.lib;..\..\ExtLibs\SFML\lib\Release\sfml-system.lib;winmm.lib;ws2_32.lib;user32.lib;opengl32.lib;glu32.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/LibertyDevelop/Binaries/Output/Release_Windows/CppPlatform/Extensions/Release/DraggableBehavior.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/LibertyDevelop/Binaries/Output/Release_Windows/CppPlatform/Extensions/Release/DraggableBehavior.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\LibertyDevelop\ExtLibs\SFML\include;D:\LibertyDevelop\Core;D:\LibertyDevelop\GDCpp;D:\LibertyDevelop\Extensions\DraggableBehavior\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG; GD_IDE_ONLY=1;RELEASE;WINDOWS;GD_CORE_API=__declspec(dllimport);GD_API=__declspec(dllimport);GD_EXTENSION_API=__declspec(dllexport);__GNUWIN32__;CMAKE_INTDIR="MinSizeRel";DraggableBehavior_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG; GD_IDE_ONLY=1;RELEASE;WINDOWS;GD_CORE_API=__declspec(dllimport);GD_API=__declspec(dllimport);GD_EXTENSION_API=__declspec(dllexport);__GNUWIN32__;CMAKE_INTDIR=\"MinSizeRel\";DraggableBehavior_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\LibertyDevelop\ExtLibs\SFML\include;D:\LibertyDevelop\Core;D:\LibertyDevelop\GDCpp;D:\LibertyDevelop\Extensions\DraggableBehavior\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\LibertyDevelop\ExtLibs\SFML\include;D:\LibertyDevelop\Core;D:\LibertyDevelop\GDCpp;D:\LibertyDevelop\Extensions\DraggableBehavior\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\Binaries\Output\Release_Windows\MinSizeRel\GDCpp.lib;ws2_32.lib;user32.lib;opengl32.lib;glu32.lib;psapi.lib;..\..\..\Binaries\Output\Release_Windows\MinSizeRel\GDCore.lib;..\..\ExtLibs\SFML\lib\MinSizeRel\sfml-audio.lib;..\..\..\ExtLibs\SFML\extlibs\libs-msvc-universal\x64\openal32.lib;..\..\..\ExtLibs\SFML\extlibs\libs-msvc-universal\x64\vorbisenc.lib;..\..\..\ExtLibs\SFML\extlibs\libs-msvc-universal\x64\vorbisfile.lib;..\..\..\ExtLibs\SFML\extlibs\libs-msvc-universal\x64\vorbis.lib;..\..\..\ExtLibs\SFML\extlibs\libs-msvc-universal\x64\ogg.lib;..\..\..\ExtLibs\SFML\extlibs\libs-msvc-universal\x64\flac.lib;..\..\ExtLibs\SFML\lib\MinSizeRel\sfml-graphics.lib;..\..\..\ExtLibs\SFML\extlibs\libs-msvc-universal\x64\freetype.lib;..\..\..\ExtLibs\SFML\extlibs\libs-msvc-universal\x64\jpeg.lib;..\..\ExtLibs\SFML\lib\MinSizeRel\sfml-window.lib;gdi32.lib;..\..\ExtLibs\SFML\lib\MinSizeRel\sfml-network.lib;..\..\ExtLibs\SFML\lib\MinSizeRel\sfml-system.lib;winmm.lib;ws2_32.lib;user32.lib;opengl32.lib;glu32.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/LibertyDevelop/Binaries/Output/Release_Windows/CppPlatform/Extensions/MinSizeRel/DraggableBehavior.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/LibertyDevelop/Binaries/Output/Release_Windows/CppPlatform/Extensions/MinSizeRel/DraggableBehavior.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\LibertyDevelop\ExtLibs\SFML\include;D:\LibertyDevelop\Core;D:\LibertyDevelop\GDCpp;D:\LibertyDevelop\Extensions\DraggableBehavior\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG; GD_IDE_ONLY=1;RELEASE;WINDOWS;GD_CORE_API=__declspec(dllimport);GD_API=__declspec(dllimport);GD_EXTENSION_API=__declspec(dllexport);__GNUWIN32__;CMAKE_INTDIR="RelWithDebInfo";DraggableBehavior_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG; GD_IDE_ONLY=1;RELEASE;WINDOWS;GD_CORE_API=__declspec(dllimport);GD_API=__declspec(dllimport);GD_EXTENSION_API=__declspec(dllexport);__GNUWIN32__;CMAKE_INTDIR=\"RelWithDebInfo\";DraggableBehavior_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\LibertyDevelop\ExtLibs\SFML\include;D:\LibertyDevelop\Core;D:\LibertyDevelop\GDCpp;D:\LibertyDevelop\Extensions\DraggableBehavior\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\LibertyDevelop\ExtLibs\SFML\include;D:\LibertyDevelop\Core;D:\LibertyDevelop\GDCpp;D:\LibertyDevelop\Extensions\DraggableBehavior\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\Binaries\Output\Release_Windows\RelWithDebInfo\GDCpp.lib;ws2_32.lib;user32.lib;opengl32.lib;glu32.lib;psapi.lib;..\..\..\Binaries\Output\Release_Windows\RelWithDebInfo\GDCore.lib;..\..\ExtLibs\SFML\lib\RelWithDebInfo\sfml-audio.lib;..\..\..\ExtLibs\SFML\extlibs\libs-msvc-universal\x64\openal32.lib;..\..\..\ExtLibs\SFML\extlibs\libs-msvc-universal\x64\vorbisenc.lib;..\..\..\ExtLibs\SFML\extlibs\libs-msvc-universal\x64\vorbisfile.lib;..\..\..\ExtLibs\SFML\extlibs\libs-msvc-universal\x64\vorbis.lib;..\..\..\ExtLibs\SFML\extlibs\libs-msvc-universal\x64\ogg.lib;..\..\..\ExtLibs\SFML\extlibs\libs-msvc-universal\x64\flac.lib;..\..\ExtLibs\SFML\lib\RelWithDebInfo\sfml-graphics.lib;..\..\..\ExtLibs\SFML\extlibs\libs-msvc-universal\x64\freetype.lib;..\..\..\ExtLibs\SFML\extlibs\libs-msvc-universal\x64\jpeg.lib;..\..\ExtLibs\SFML\lib\RelWithDebInfo\sfml-window.lib;gdi32.lib;..\..\ExtLibs\SFML\lib\RelWithDebInfo\sfml-network.lib;..\..\ExtLibs\SFML\lib\RelWithDebInfo\sfml-system.lib;winmm.lib;ws2_32.lib;user32.lib;opengl32.lib;glu32.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/LibertyDevelop/Binaries/Output/Release_Windows/CppPlatform/Extensions/RelWithDebInfo/DraggableBehavior.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/LibertyDevelop/Binaries/Output/Release_Windows/CppPlatform/Extensions/RelWithDebInfo/DraggableBehavior.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\LibertyDevelop\Extensions\DraggableBehavior\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/LibertyDevelop/Extensions/DraggableBehavior/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/LibertyDevelop -BD:/LibertyDevelop/Intermediate --check-stamp-file D:/LibertyDevelop/Intermediate/Extensions/DraggableBehavior/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\LibertyDevelop\Intermediate\Extensions\DraggableBehavior\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/LibertyDevelop/Extensions/DraggableBehavior/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/LibertyDevelop -BD:/LibertyDevelop/Intermediate --check-stamp-file D:/LibertyDevelop/Intermediate/Extensions/DraggableBehavior/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\LibertyDevelop\Intermediate\Extensions\DraggableBehavior\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/LibertyDevelop/Extensions/DraggableBehavior/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/LibertyDevelop -BD:/LibertyDevelop/Intermediate --check-stamp-file D:/LibertyDevelop/Intermediate/Extensions/DraggableBehavior/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\LibertyDevelop\Intermediate\Extensions\DraggableBehavior\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/LibertyDevelop/Extensions/DraggableBehavior/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/LibertyDevelop -BD:/LibertyDevelop/Intermediate --check-stamp-file D:/LibertyDevelop/Intermediate/Extensions/DraggableBehavior/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\LibertyDevelop\Intermediate\Extensions\DraggableBehavior\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\LibertyDevelop\Extensions\DraggableBehavior\DraggableBehavior.cpp" />
+    <ClInclude Include="D:\LibertyDevelop\Extensions\DraggableBehavior\DraggableBehavior.h" />
+    <ClCompile Include="D:\LibertyDevelop\Extensions\DraggableBehavior\DraggableRuntimeBehavior.cpp" />
+    <ClInclude Include="D:\LibertyDevelop\Extensions\DraggableBehavior\DraggableRuntimeBehavior.h" />
+    <ClCompile Include="D:\LibertyDevelop\Extensions\DraggableBehavior\Extension.cpp" />
+    <ClCompile Include="D:\LibertyDevelop\Extensions\DraggableBehavior\JsExtension.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\ZERO_CHECK.vcxproj">
+      <Project>{225211ED-6ADD-366E-BD41-94D17021A03B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\Core\GDCore.vcxproj">
+      <Project>{B8C22B08-E8A7-3518-96AA-F51EE1CE682C}</Project>
+      <Name>GDCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\GDCpp\GDCpp.vcxproj">
+      <Project>{382CEEA7-73AE-3294-BC3B-CCD90F520C95}</Project>
+      <Name>GDCpp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\ExtLibs\SFML\src\SFML\Audio\sfml-audio.vcxproj">
+      <Project>{07415D06-A592-38F2-B651-B2248EAFBFB6}</Project>
+      <Name>sfml-audio</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\ExtLibs\SFML\src\SFML\Graphics\sfml-graphics.vcxproj">
+      <Project>{DCF93F5A-6972-37E2-8D6E-9CCAB543B1D8}</Project>
+      <Name>sfml-graphics</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\ExtLibs\SFML\src\SFML\Network\sfml-network.vcxproj">
+      <Project>{FEDB2F2F-4CA5-3629-A4A7-AA1439AA3A3B}</Project>
+      <Name>sfml-network</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\ExtLibs\SFML\src\SFML\System\sfml-system.vcxproj">
+      <Project>{9E03A13B-3AB5-309A-9786-FD5A8A49C09E}</Project>
+      <Name>sfml-system</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\ExtLibs\SFML\src\SFML\Window\sfml-window.vcxproj">
+      <Project>{4F6501C9-9972-3CC3-804E-1BD0510BA4C7}</Project>
+      <Name>sfml-window</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

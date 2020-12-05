@@ -1,0 +1,18 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X failed with the following output:
+Change Dir: D:/LibertyDevelop/Intermediate/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_f80f5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 15.9.21+g9802d43bc3
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.16.27044(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  
+  src.cxx
+  cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D COMPILER_SUPPORTS_CXX0X /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f80f5.dir\Debug\\" /Fd"cmTC_f80f5.dir\Debug\vc141.pdb" /Gd /TP /errorReport:queue  -std=gnu++0x D:\LibertyDevelop\Intermediate\CMakeFiles\CMakeTmp\src.cxx
+  
+cl : 명령줄 warning D9002: 알 수 없는 '-std=gnu++0x' 옵션을 무시합니다. [D:\LibertyDevelop\Intermediate\CMakeFiles\CMakeTmp\cmTC_f80f5.vcxproj]
+  cmTC_f80f5.vcxproj -> D:\LibertyDevelop\Intermediate\CMakeFiles\CMakeTmp\Debug\cmTC_f80f5.exe
+
+
+Source file was:
+int main() { return 0; }

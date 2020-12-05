@@ -1,0 +1,95 @@
+﻿  BlendMode.cpp
+  CircleShape.cpp
+  Color.cpp
+  ConvexShape.cpp
+  Font.cpp
+  GLCheck.cpp
+  GLExtensions.cpp
+  GLLoader.cpp
+  Glsl.cpp
+  Image.cpp
+  ImageLoader.cpp
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(920): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(942): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(987): warning C4312: '형식 캐스트': 'int'에서 더 큰 'float *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(1009): warning C4312: '형식 캐스트': 'int'에서 더 큰 'float *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(1231): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(1269): warning C4312: '형식 캐스트': 'int'에서 더 큰 'float *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(1289): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(3193): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(3221): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(3239): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(4351): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(4479): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(4485): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(4493): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(4495): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(4503): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(4538): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(4541): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(4568): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(4571): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(4582): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(4620): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(4798): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(4819): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(4824): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(4956): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(4960): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(4968): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(4976): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(4989): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(5006): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(5010): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(5150): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(5178): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(5189): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(5190): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(5204): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(5223): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(5241): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(5252): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(5261): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(5288): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(5289): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(5502): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(5506): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(5511): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(5522): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(5551): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(5558): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(5575): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(5605): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(5638): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(5751): warning C4312: '형식 캐스트': 'int'에서 더 큰 'float *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(5760): warning C4312: '형식 캐스트': 'int'에서 더 큰 'float *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(5765): warning C4312: '형식 캐스트': 'int'에서 더 큰 'float *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(5769): warning C4312: '형식 캐스트': 'int'에서 더 큰 'float *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(5818): warning C4312: '형식 캐스트': 'int'에서 더 큰 'float *'(으)로의 변환입니다.
+D:\LibertyDevelop\ExtLibs\SFML\extlibs\headers\stb_image\stb_image.h(6033): warning C4312: '형식 캐스트': 'int'에서 더 큰 'unsigned char *'(으)로의 변환입니다.
+  RectangleShape.cpp
+  RenderStates.cpp
+  RenderTarget.cpp
+  RenderTexture.cpp
+  RenderTextureImpl.cpp
+  RenderTextureImplDefault.cpp
+  RenderTextureImplFBO.cpp
+  RenderWindow.cpp
+D:\LibertyDevelop\ExtLibs\SFML\include\SFML/Window/WindowHandle.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  Shader.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  Shape.cpp
+  Sprite.cpp
+  Text.cpp
+  Texture.cpp
+D:\LibertyDevelop\ExtLibs\SFML\include\SFML/Window/WindowHandle.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  TextureSaver.cpp
+  Transform.cpp
+  Transformable.cpp
+  Vertex.cpp
+  VertexArray.cpp
+  View.cpp
+  코드를 생성하고 있습니다...
+     D:/LibertyDevelop/Intermediate/ExtLibs/SFML/lib/Release/sfml-graphics.lib 라이브러리 및 D:/LibertyDevelop/Intermediate/ExtLibs/SFML/lib/Release/sfml-graphics.exp 개체를 생성하고 있습니다.
+  sfml-graphics.vcxproj -> D:\LibertyDevelop\Intermediate\ExtLibs\SFML\lib\Release\sfml-graphics-2.dll

@@ -1,0 +1,804 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Events\Builtin\CommentEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Events\Builtin\ForEachEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Events\Builtin\GroupEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Events\Builtin\LinkEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Events\Builtin\RepeatEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Events\Builtin\StandardEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Events\Builtin\WhileEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Events\CodeGeneration\EffectsCodeGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Events\CodeGeneration\EventsCodeGenerationContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Events\CodeGeneration\EventsCodeGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Events\CodeGeneration\ExpressionCodeGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Events\Event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Events\EventsList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Events\Instruction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Events\InstructionsList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Events\Parsers\ExpressionParser2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Events\Parsers\ExpressionParser2Node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Events\Parsers\ExpressionParser2NodeWorker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Events\Serialization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Events\Tools\EventsCodeNameMangler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Extensions\Builtin\AdvancedExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Extensions\Builtin\AudioExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Extensions\Builtin\BaseObjectExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Extensions\Builtin\CameraExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Extensions\Builtin\CommonConversionsExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Extensions\Builtin\CommonInstructionsExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Extensions\Builtin\ExternalLayoutsExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Extensions\Builtin\FileExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Extensions\Builtin\JoystickExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Extensions\Builtin\KeyboardExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Extensions\Builtin\MathematicalToolsExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Extensions\Builtin\MouseExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Extensions\Builtin\NetworkExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Extensions\Builtin\SceneExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Extensions\Builtin\SpriteExtension\Animation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Extensions\Builtin\SpriteExtension\Direction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Extensions\Builtin\SpriteExtension\Point.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Extensions\Builtin\SpriteExtension\Polygon2d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Extensions\Builtin\SpriteExtension\Sprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Extensions\Builtin\SpriteExtension\SpriteExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Extensions\Builtin\SpriteExtension\SpriteObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Extensions\Builtin\StringInstructionsExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Extensions\Builtin\TimeExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Extensions\Builtin\VariablesExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Extensions\Builtin\WindowExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Extensions\Metadata\BehaviorMetadata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Extensions\Metadata\EffectMetadata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Extensions\Metadata\EventMetadata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Extensions\Metadata\ExpressionMetadata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Extensions\Metadata\InstructionMetadata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Extensions\Metadata\MetadataProvider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Extensions\Metadata\ObjectMetadata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Extensions\Metadata\ParameterMetadataTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Extensions\Platform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Extensions\PlatformExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\IDE\AbstractFileSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\IDE\DependenciesAnalyzer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\IDE\Dialogs\LayoutEditorCanvas\LayoutEditorCanvasOptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\IDE\Events\ArbitraryEventsWorker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\IDE\Events\EventsContextAnalyzer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\IDE\Events\EventsParametersLister.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\IDE\Events\EventsRefactorer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\IDE\Events\EventsRemover.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\IDE\Events\EventsTypesLister.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\IDE\Events\EventsVariablesFinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\IDE\Events\ExpressionsParameterMover.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\IDE\Events\ExpressionsRenamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\IDE\Events\InstructionSentenceFormatter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\IDE\Events\InstructionsParameterMover.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\IDE\Events\InstructionsTypeRenamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\IDE\EventsFunctionTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\IDE\ExtensionsLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\IDE\NewNameGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\IDE\PlatformLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\IDE\PlatformManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\IDE\Project\ArbitraryResourceWorker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\IDE\Project\ProjectResourcesAdder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\IDE\Project\ProjectResourcesCopier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\IDE\Project\ResourcesAbsolutePathChecker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\IDE\Project\ResourcesMergingHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\IDE\ProjectStripper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\IDE\SceneNameMangler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\IDE\WholeProjectRefactorer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Project\Behavior.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Project\BehaviorContent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Project\BehaviorsSharedData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Project\Effect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Project\EventsBasedBehavior.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Project\EventsFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Project\EventsFunctionsExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Project\ExternalEvents.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Project\ExternalLayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Project\ImageManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Project\InitialInstance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Project\InitialInstancesContainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Project\Layer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Project\Layout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Project\LoadingScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Project\NamedPropertyDescriptor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Project\Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Project\ObjectGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Project\ObjectGroupsContainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Project\ObjectsContainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Project\PlatformSpecificAssets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Project\Project.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Project\PropertyDescriptor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Project\ResourcesLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Project\ResourcesManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Project\SourceFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Project\Variable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Project\VariablesContainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Serialization\Serializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Serialization\SerializerElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Serialization\SerializerValue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\String.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\TinyXml\tinystr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\TinyXml\tinyxml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\TinyXml\tinyxmlerror.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\TinyXml\tinyxmlparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Tools\DynamicLibrariesTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Tools\FileStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Tools\Localization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Tools\Log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Tools\OpenGLTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Tools\SystemStats.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Tools\VersionWrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Tools\XmlLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LibertyDevelop\Core\GDCore\Utf8\utf8proc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\CommonTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\DocMainPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Events\Builtin\CommentEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Events\Builtin\ForEachEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Events\Builtin\GroupEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Events\Builtin\LinkEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Events\Builtin\RepeatEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Events\Builtin\StandardEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Events\Builtin\WhileEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Events\CodeGeneration\EffectsCodeGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Events\CodeGeneration\EventsCodeGenerationContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Events\CodeGeneration\EventsCodeGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Events\CodeGeneration\ExpressionCodeGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Events\Event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Events\EventsList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Events\Expression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Events\Instruction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Events\InstructionsList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Events\Parsers\ExpressionParser2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Events\Parsers\ExpressionParser2Node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Events\Parsers\ExpressionParser2NodePrinter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Events\Parsers\ExpressionParser2NodeWorker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Events\Serialization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Events\Tools\EventsCodeNameMangler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Extensions\Builtin\AllBuiltinExtensions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Extensions\Builtin\SpriteExtension\Animation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Extensions\Builtin\SpriteExtension\Direction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Extensions\Builtin\SpriteExtension\Point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Extensions\Builtin\SpriteExtension\Polygon2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Extensions\Builtin\SpriteExtension\Sprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Extensions\Builtin\SpriteExtension\SpriteObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Extensions\Metadata\BehaviorMetadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Extensions\Metadata\EffectMetadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Extensions\Metadata\EventMetadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Extensions\Metadata\ExpressionMetadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Extensions\Metadata\InstructionMetadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Extensions\Metadata\MetadataProvider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Extensions\Metadata\ObjectMetadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Extensions\Metadata\ParameterMetadataTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Extensions\Platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Extensions\PlatformExtension.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Extensions\PlatformExtension.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\IDE\AbstractFileSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\IDE\DependenciesAnalyzer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\IDE\Dialogs\LayoutEditorCanvas\LayoutEditorCanvasOptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\IDE\Events\ArbitraryEventsWorker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\IDE\Events\EventsContextAnalyzer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\IDE\Events\EventsListUnfolder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\IDE\Events\EventsParametersLister.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\IDE\Events\EventsRefactorer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\IDE\Events\EventsRemover.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\IDE\Events\EventsTypesLister.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\IDE\Events\EventsVariablesFinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\IDE\Events\ExpressionCompletionFinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\IDE\Events\ExpressionNodeLocationFinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\IDE\Events\ExpressionValidator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\IDE\Events\ExpressionsParameterMover.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\IDE\Events\ExpressionsRenamer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\IDE\Events\InstructionSentenceFormatter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\IDE\Events\InstructionsParameterMover.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\IDE\Events\InstructionsTypeRenamer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\IDE\Events\TextFormatting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\IDE\EventsFunctionTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\IDE\ExtensionsLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\IDE\NewNameGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\IDE\PlatformLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\IDE\PlatformManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\IDE\Project\ArbitraryResourceWorker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\IDE\Project\ProjectResourcesAdder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\IDE\Project\ProjectResourcesCopier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\IDE\Project\ResourcesAbsolutePathChecker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\IDE\Project\ResourcesInUseHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\IDE\Project\ResourcesMergingHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\IDE\ProjectStripper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\IDE\SceneNameMangler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\IDE\WholeProjectRefactorer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Project\Behavior.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Project\BehaviorContent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Project\BehaviorsSharedData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Project\Effect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Project\EventsBasedBehavior.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Project\EventsFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Project\EventsFunctionsContainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Project\EventsFunctionsExtension.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Project\ExternalEvents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Project\ExternalLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Project\ImageManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Project\InitialInstance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Project\InitialInstancesContainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Project\Layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Project\Layout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Project\LoadingScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Project\NamedPropertyDescriptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Project\Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Project\ObjectGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Project\ObjectGroupsContainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Project\ObjectsContainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Project\PlatformSpecificAssets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Project\Project.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Project\PropertyDescriptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Project\ResourcesLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Project\ResourcesManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Project\SourceFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Project\Variable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Project\VariablesContainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Serialization\Serializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Serialization\SerializerElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Serialization\SerializerValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\String.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\TinyXml\tinystr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\TinyXml\tinyxml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Tools\DynamicLibrariesTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Tools\FileStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Tools\HexToRgb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Tools\InvalidImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Tools\Localization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Tools\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Tools\MakeUnique.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Tools\OpenGLTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Tools\PolymorphicClone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Tools\SPtrList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Tools\SPtrList.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Tools\SerializableWithNameList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Tools\SerializableWithNameList.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Tools\SystemStats.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Tools\VersionPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Tools\VersionWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Tools\XmlLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Utf8\utf8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Utf8\utf8\checked.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Utf8\utf8\core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Utf8\utf8\unchecked.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Utf8\utf8proc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LibertyDevelop\Core\GDCore\Utf8\utf8proc_data.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\LibertyDevelop\Core\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3082C86F-E8FE-3EFE-AC27-AB8D2EF8C53C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E1255974-32B5-3490-B1AD-9850949D79F6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

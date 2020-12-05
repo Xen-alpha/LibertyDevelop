@@ -125,8 +125,7 @@ std::unique_ptr<RuntimeObject> CppPlatform::CreateRuntimeObject(
 
   if (runtimeObjCreationFunctionTable.find(type) ==
       runtimeObjCreationFunctionTable.end()) {
-    std::cout << "Tried to create an object with an unknown type: " << type
-              << std::endl;
+    std::cout << "Tried to create an object with an unknown type: " << type << std::endl;
     std::cout << "Have you called AddRuntimeObject<...>(...) in your extension?" << std::endl;
     return std::unique_ptr<RuntimeObject>();
   }
@@ -139,15 +138,12 @@ std::unique_ptr<RuntimeBehavior> CppPlatform::CreateRuntimeBehavior(
     const gd::String &type, gd::SerializerElement &behaviorContent) {
   if (runtimeBehaviorCreationFunctionTable.find(type) ==
       runtimeBehaviorCreationFunctionTable.end()) {
-    std::cout << "Tried to create a runtime behavior with an unknown type: "
-              << type << std::endl;
+    std::cout << "Tried to create a runtime behavior with an unknown type: "<< type << std::endl;
     std::cout << "Have you called AddRuntimeBehavior<...>(...) in your extension?" << std::endl;
     return std::unique_ptr<RuntimeBehavior>();
   }
   if (!runtimeBehaviorCreationFunctionTable[type]) {
-    std::cout << "Tried to create a runtime behavior, but no class was "
-                 "specified for type: "
-              << type << std::endl;
+    std::cout << "Tried to create a runtime behavior, but no class was specified for type: " << type << std::endl;
     std::cout << "Have you called AddRuntimeBehavior<...>(...) in your extension?" << std::endl;
     return std::unique_ptr<RuntimeBehavior>();
   }

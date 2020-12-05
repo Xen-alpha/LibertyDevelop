@@ -1,0 +1,29 @@
+﻿  Context.cpp
+  GlContext.cpp
+  GlResource.cpp
+  Joystick.cpp
+  JoystickManager.cpp
+  Keyboard.cpp
+  Mouse.cpp
+D:\LibertyDevelop\ExtLibs\SFML\include\SFML/Window/WindowHandle.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  Sensor.cpp
+  SensorManager.cpp
+  Touch.cpp
+  VideoMode.cpp
+  InputImpl.cpp
+D:\LibertyDevelop\ExtLibs\SFML\include\SFML/Window/WindowHandle.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  JoystickImpl.cpp
+  SensorImpl.cpp
+  VideoModeImpl.cpp
+  WglContext.cpp
+D:\LibertyDevelop\ExtLibs\SFML\include\SFML/Window/WindowHandle.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  WglExtensions.cpp
+  WindowImplWin32.cpp
+D:\LibertyDevelop\ExtLibs\SFML\include\SFML/Window/WindowHandle.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  Window.cpp
+D:\LibertyDevelop\ExtLibs\SFML\include\SFML/Window/WindowHandle.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  WindowImpl.cpp
+D:\LibertyDevelop\ExtLibs\SFML\include\SFML/Window/WindowHandle.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  코드를 생성하고 있습니다...
+     D:/LibertyDevelop/Intermediate/ExtLibs/SFML/lib/Release/sfml-window.lib 라이브러리 및 D:/LibertyDevelop/Intermediate/ExtLibs/SFML/lib/Release/sfml-window.exp 개체를 생성하고 있습니다.
+  sfml-window.vcxproj -> D:\LibertyDevelop\Intermediate\ExtLibs\SFML\lib\Release\sfml-window-2.dll

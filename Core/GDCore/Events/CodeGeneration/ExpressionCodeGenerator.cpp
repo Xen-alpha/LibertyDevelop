@@ -41,9 +41,7 @@ gd::String ExpressionCodeGenerator::GenerateExpressionCode(
 
   ExpressionCodeGenerator generator(codeGenerator, context);
   if (!validator.GetErrors().empty()) {
-    std::cout << "Error: \"" << validator.GetErrors()[0]->GetMessage()
-              << "\" in: \"" << expression << "\" (" << type << ")"
-              << std::endl;
+    std::cout << "Error: \"" << validator.GetErrors()[0]->GetMessage() << "\" in: \"" << expression << "\" (" << type << ")"<< std::endl;
 
     return generator.GenerateDefaultValue(type);
   }

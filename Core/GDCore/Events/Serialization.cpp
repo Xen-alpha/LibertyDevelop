@@ -76,9 +76,7 @@ void EventsListSerialization::UpdateInstructionsFromGD4097(
       changedSomething |= AddQuotesToFunctionCall(expressionStr, "PointY");
 
       if (changedSomething) {
-        std::cout << "(Debug) Converted \""
-                  << instr.GetParameter(j).GetPlainString() << "\" to \""
-                  << expressionStr << "\"" << std::endl;
+        std::cout << "(Debug) Converted \"" << instr.GetParameter(j).GetPlainString() << "\" to \"" << expressionStr << "\"" << std::endl;
         instr.SetParameter(j, gd::Expression(expressionStr));
       }
     }

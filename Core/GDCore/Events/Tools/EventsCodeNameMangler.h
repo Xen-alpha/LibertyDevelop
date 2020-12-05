@@ -58,7 +58,7 @@ class GD_CORE_API EventsCodeNameMangler {
  * \see EventsCodeNameMangler
  * \return Mangled object name
  */
-const gd::String &GD_CORE_API ManObjListName(const gd::String &objectName);
+const GD_CORE_API gd::String& ManObjListName(const gd::String &objectName);
 
 #endif  // EVENTSCODENAMEMANGLER_H
 #endif

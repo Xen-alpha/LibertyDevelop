@@ -1,0 +1,62 @@
+﻿  Extension.cpp
+D:\LibertyDevelop\Extensions\PathfindingBehavior\Extension.cpp(673): error C2039: 'gccMajorVersion': 'gd::CompilationInfo'의 멤버가 아닙니다.
+  D:\LibertyDevelop\Core\GDCore/Extensions/PlatformExtension.h(46): note: 'gd::CompilationInfo' 선언을 참조하십시오.
+D:\LibertyDevelop\Extensions\PathfindingBehavior\Extension.cpp(673): error C2065: '__GNUC__': 선언되지 않은 식별자입니다.
+D:\LibertyDevelop\Extensions\PathfindingBehavior\Extension.cpp(673): error C2039: 'gccMinorVersion': 'gd::CompilationInfo'의 멤버가 아닙니다.
+  D:\LibertyDevelop\Core\GDCore/Extensions/PlatformExtension.h(46): note: 'gd::CompilationInfo' 선언을 참조하십시오.
+D:\LibertyDevelop\Extensions\PathfindingBehavior\Extension.cpp(673): error C2065: '__GNUC_MINOR__': 선언되지 않은 식별자입니다.
+D:\LibertyDevelop\Extensions\PathfindingBehavior\Extension.cpp(673): error C2039: 'gccPatchLevel': 'gd::CompilationInfo'의 멤버가 아닙니다.
+  D:\LibertyDevelop\Core\GDCore/Extensions/PlatformExtension.h(46): note: 'gd::CompilationInfo' 선언을 참조하십시오.
+D:\LibertyDevelop\Extensions\PathfindingBehavior\Extension.cpp(673): error C2065: '__GNUC_PATCHLEVEL__': 선언되지 않은 식별자입니다.
+D:\LibertyDevelop\Extensions\PathfindingBehavior\Extension.cpp(686): error C2059: 구문 오류: '__declspec(dllexport)'
+D:\LibertyDevelop\Extensions\PathfindingBehavior\Extension.cpp(686): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+D:\LibertyDevelop\Extensions\PathfindingBehavior\Extension.cpp(686): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+  JsExtension.cpp
+D:\LibertyDevelop\Extensions\PathfindingBehavior\JsExtension.cpp(149): error C2039: 'gccMajorVersion': 'gd::CompilationInfo'의 멤버가 아닙니다.
+  D:\LibertyDevelop\Core\GDCore/Extensions/PlatformExtension.h(46): note: 'gd::CompilationInfo' 선언을 참조하십시오.
+D:\LibertyDevelop\Extensions\PathfindingBehavior\JsExtension.cpp(149): error C2065: '__GNUC__': 선언되지 않은 식별자입니다.
+D:\LibertyDevelop\Extensions\PathfindingBehavior\JsExtension.cpp(149): error C2039: 'gccMinorVersion': 'gd::CompilationInfo'의 멤버가 아닙니다.
+  D:\LibertyDevelop\Core\GDCore/Extensions/PlatformExtension.h(46): note: 'gd::CompilationInfo' 선언을 참조하십시오.
+D:\LibertyDevelop\Extensions\PathfindingBehavior\JsExtension.cpp(149): error C2065: '__GNUC_MINOR__': 선언되지 않은 식별자입니다.
+D:\LibertyDevelop\Extensions\PathfindingBehavior\JsExtension.cpp(149): error C2039: 'gccPatchLevel': 'gd::CompilationInfo'의 멤버가 아닙니다.
+  D:\LibertyDevelop\Core\GDCore/Extensions/PlatformExtension.h(46): note: 'gd::CompilationInfo' 선언을 참조하십시오.
+D:\LibertyDevelop\Extensions\PathfindingBehavior\JsExtension.cpp(149): error C2065: '__GNUC_PATCHLEVEL__': 선언되지 않은 식별자입니다.
+D:\LibertyDevelop\Extensions\PathfindingBehavior\JsExtension.cpp(162): error C2059: 구문 오류: '__declspec(dllexport)'
+D:\LibertyDevelop\Extensions\PathfindingBehavior\JsExtension.cpp(162): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+D:\LibertyDevelop\Extensions\PathfindingBehavior\JsExtension.cpp(162): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+  PathfindingBehavior.cpp
+  PathfindingObstacleBehavior.cpp
+  PathfindingObstacleRuntimeBehavior.cpp
+D:\LibertyDevelop\ExtLibs\SFML\include\SFML/Window/WindowHandle.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  PathfindingRuntimeBehavior.cpp
+D:\LibertyDevelop\ExtLibs\SFML\include\SFML/Window/WindowHandle.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xtree(2032): error C3848: 'const `anonymous-namespace'::Node::NodeComparator' 형식의 식에서 'bool `anonymous-namespace'::Node::NodeComparator::operator ()(const `anonymous-namespace'::Node *,const `anonymous-namespace'::Node *)'을(를) 호출하면 const-volatile 한정자가 손실됩니다.
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xtree(2031): note: 클래스 템플릿 멤버 함수 'bool std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,true>>::_Compare(`anonymous-namespace'::Node *const &,`anonymous-namespace'::Node *const &) const'을(를) 컴파일하고 있습니다.
+          with
+          [
+              _Kty=`anonymous-namespace'::Node *,
+              _Pr=`anonymous-namespace'::Node::NodeComparator,
+              _Alloc=std::allocator<`anonymous-namespace'::Node *>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xtree(2050): note: 컴파일 중인 함수 템플릿 인스턴스화 'bool std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,true>>::_Compare(`anonymous-namespace'::Node *const &,`anonymous-namespace'::Node *const &) const'에 대한 참조를 확인하십시오.
+          with
+          [
+              _Kty=`anonymous-namespace'::Node *,
+              _Pr=`anonymous-namespace'::Node::NodeComparator,
+              _Alloc=std::allocator<`anonymous-namespace'::Node *>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\set(267): note: 컴파일 중인 클래스 템플릿 인스턴스화 'std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,true>>'에 대한 참조를 확인하세요.
+          with
+          [
+              _Kty=`anonymous-namespace'::Node *,
+              _Pr=`anonymous-namespace'::Node::NodeComparator,
+              _Alloc=std::allocator<`anonymous-namespace'::Node *>
+          ]
+  D:\LibertyDevelop\Extensions\PathfindingBehavior\PathfindingRuntimeBehavior.cpp(371): note: 컴파일 중인 클래스 템플릿 인스턴스화 'std::multiset<`anonymous-namespace'::Node *,`anonymous-namespace'::Node::NodeComparator,std::allocator<_Kty>>'에 대한 참조를 확인하세요.
+          with
+          [
+              _Kty=`anonymous-namespace'::Node *
+          ]
+  ScenePathfindingObstaclesManager.cpp
+D:\LibertyDevelop\ExtLibs\SFML\include\SFML/Window/WindowHandle.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  코드를 생성하고 있습니다...

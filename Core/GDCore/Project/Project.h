@@ -16,6 +16,7 @@
 #include "GDCore/Project/ResourcesManager.h"
 #include "GDCore/Project/VariablesContainer.h"
 #include "GDCore/String.h"
+
 namespace gd {
 class Platform;
 class Layout;

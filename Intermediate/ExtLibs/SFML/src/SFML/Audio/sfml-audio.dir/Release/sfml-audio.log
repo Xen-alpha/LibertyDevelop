@@ -1,0 +1,23 @@
+﻿  ALCheck.cpp
+  AlResource.cpp
+  AudioDevice.cpp
+  InputSoundFile.cpp
+  Listener.cpp
+  Music.cpp
+  OutputSoundFile.cpp
+  Sound.cpp
+  SoundBuffer.cpp
+  SoundBufferRecorder.cpp
+  SoundFileFactory.cpp
+  SoundFileReaderFlac.cpp
+  SoundFileReaderOgg.cpp
+  SoundFileReaderWav.cpp
+  SoundFileWriterFlac.cpp
+  SoundFileWriterOgg.cpp
+  SoundFileWriterWav.cpp
+  SoundRecorder.cpp
+  SoundSource.cpp
+  SoundStream.cpp
+  코드를 생성하고 있습니다...
+     D:/LibertyDevelop/Intermediate/ExtLibs/SFML/lib/Release/sfml-audio.lib 라이브러리 및 D:/LibertyDevelop/Intermediate/ExtLibs/SFML/lib/Release/sfml-audio.exp 개체를 생성하고 있습니다.
+  sfml-audio.vcxproj -> D:\LibertyDevelop\Intermediate\ExtLibs\SFML\lib\Release\sfml-audio-2.dll

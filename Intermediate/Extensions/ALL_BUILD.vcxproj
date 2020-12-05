@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A8094D20-D1BA-34D0-BA6B-6F08B8A71BFC}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\LibertyDevelop\Extensions\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/LibertyDevelop/Extensions/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/LibertyDevelop -BD:/LibertyDevelop/Intermediate --check-stamp-file D:/LibertyDevelop/Intermediate/Extensions/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\LibertyDevelop\Extensions\CMakeUtils.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\LibertyDevelop\Intermediate\Extensions\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/LibertyDevelop/Extensions/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/LibertyDevelop -BD:/LibertyDevelop/Intermediate --check-stamp-file D:/LibertyDevelop/Intermediate/Extensions/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\LibertyDevelop\Extensions\CMakeUtils.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\LibertyDevelop\Intermediate\Extensions\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/LibertyDevelop/Extensions/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/LibertyDevelop -BD:/LibertyDevelop/Intermediate --check-stamp-file D:/LibertyDevelop/Intermediate/Extensions/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\LibertyDevelop\Extensions\CMakeUtils.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\LibertyDevelop\Intermediate\Extensions\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/LibertyDevelop/Extensions/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/LibertyDevelop -BD:/LibertyDevelop/Intermediate --check-stamp-file D:/LibertyDevelop/Intermediate/Extensions/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\LibertyDevelop\Extensions\CMakeUtils.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\LibertyDevelop\Intermediate\Extensions\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\ZERO_CHECK.vcxproj">
+      <Project>{225211ED-6ADD-366E-BD41-94D17021A03B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\Extensions\AnchorBehavior\AnchorBehavior.vcxproj">
+      <Project>{74CE3B40-0D37-3CD7-8AD2-CA438C3D357B}</Project>
+      <Name>AnchorBehavior</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\Extensions\AnchorBehavior\AnchorBehavior_Runtime.vcxproj">
+      <Project>{AABEECAB-84DF-3924-876C-7B08954F92D1}</Project>
+      <Name>AnchorBehavior_Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\Extensions\DestroyOutsideBehavior\DestroyOutsideBehavior.vcxproj">
+      <Project>{F3EB85EE-A2DB-3D43-94F1-16A2F454E7B2}</Project>
+      <Name>DestroyOutsideBehavior</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\Extensions\DestroyOutsideBehavior\DestroyOutsideBehavior_Runtime.vcxproj">
+      <Project>{5ADC0662-E0FE-3BAE-9800-D4ED6A7D77B3}</Project>
+      <Name>DestroyOutsideBehavior_Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\Extensions\DraggableBehavior\DraggableBehavior.vcxproj">
+      <Project>{42C8370D-AAE7-317A-8A9B-9AF53E63E0AA}</Project>
+      <Name>DraggableBehavior</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\Extensions\DraggableBehavior\DraggableBehavior_Runtime.vcxproj">
+      <Project>{05BEE914-8055-3C1A-AB03-E1ED0EFC76CB}</Project>
+      <Name>DraggableBehavior_Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\Extensions\Inventory\Inventory.vcxproj">
+      <Project>{4C4A6570-5202-35F6-B0CD-D2812272D085}</Project>
+      <Name>Inventory</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\Extensions\Inventory\Inventory_Runtime.vcxproj">
+      <Project>{A08EF738-1CB5-359A-8507-23AF5C64B7A5}</Project>
+      <Name>Inventory_Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\Extensions\LinkedObjects\LinkedObjects.vcxproj">
+      <Project>{2BDC0B59-08C4-33DD-B6EE-5A63FABB9AD8}</Project>
+      <Name>LinkedObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\Extensions\LinkedObjects\LinkedObjects_Runtime.vcxproj">
+      <Project>{0219C77E-287D-31ED-A885-1C232B5D37A8}</Project>
+      <Name>LinkedObjects_Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\Extensions\PanelSpriteObject\PanelSpriteObject.vcxproj">
+      <Project>{22FF3662-994C-3F02-B375-08FD32A8D9CF}</Project>
+      <Name>PanelSpriteObject</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\Extensions\PanelSpriteObject\PanelSpriteObject_Runtime.vcxproj">
+      <Project>{15047088-ABC1-3051-A147-2C659EE8E454}</Project>
+      <Name>PanelSpriteObject_Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\Extensions\ParticleSystem\ParticleSystem.vcxproj">
+      <Project>{B0E61A77-C83A-346C-A7FE-1570FA320AB3}</Project>
+      <Name>ParticleSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\Extensions\ParticleSystem\ParticleSystem_Runtime.vcxproj">
+      <Project>{5737678D-2FB3-3BC9-81B6-B7026D4D6FBF}</Project>
+      <Name>ParticleSystem_Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\Extensions\PathfindingBehavior\PathfindingBehavior.vcxproj">
+      <Project>{67A25151-1F98-3145-894A-6601862F14E0}</Project>
+      <Name>PathfindingBehavior</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\Extensions\PathfindingBehavior\PathfindingBehavior_Runtime.vcxproj">
+      <Project>{660609E4-4E26-30C0-9BEA-8BDBBDF3CB84}</Project>
+      <Name>PathfindingBehavior_Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\Extensions\PhysicsBehavior\PhysicsBehavior.vcxproj">
+      <Project>{7D454EEC-F93B-3D07-A7F8-B82D7E4F3562}</Project>
+      <Name>PhysicsBehavior</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\Extensions\PhysicsBehavior\PhysicsBehavior_Runtime.vcxproj">
+      <Project>{9BF2B965-D09A-309B-890B-53C3822DCB22}</Project>
+      <Name>PhysicsBehavior_Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\Extensions\PlatformBehavior\PlatformBehavior.vcxproj">
+      <Project>{4DB182FC-3B9D-386F-AD3B-075AED3443CB}</Project>
+      <Name>PlatformBehavior</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\Extensions\PlatformBehavior\PlatformBehavior_Runtime.vcxproj">
+      <Project>{F1674EBC-D650-32C6-AC52-C2C6CA3C7167}</Project>
+      <Name>PlatformBehavior_Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\Extensions\PrimitiveDrawing\PrimitiveDrawing.vcxproj">
+      <Project>{EC43C4BD-6969-3B90-9CBB-D337864D423C}</Project>
+      <Name>PrimitiveDrawing</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\Extensions\PrimitiveDrawing\PrimitiveDrawing_Runtime.vcxproj">
+      <Project>{0D09BF16-2CA7-3442-83A4-B9AD855A9690}</Project>
+      <Name>PrimitiveDrawing_Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\Extensions\Shopify\Shopify.vcxproj">
+      <Project>{70015424-8B54-3F0F-B33A-6F584DD2557E}</Project>
+      <Name>Shopify</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\Extensions\SkeletonObject\SkeletonObject.vcxproj">
+      <Project>{0FC2216D-84DA-30AC-BC92-C920C5449F0C}</Project>
+      <Name>SkeletonObject</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\Extensions\SystemInfo\SystemInfo.vcxproj">
+      <Project>{E4A0458C-993A-3393-9551-E7B8948E05D9}</Project>
+      <Name>SystemInfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\Extensions\SystemInfo\SystemInfo_Runtime.vcxproj">
+      <Project>{E9EA361B-5EE0-38AF-93B0-80C890B5C507}</Project>
+      <Name>SystemInfo_Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\Extensions\TextEntryObject\TextEntryObject.vcxproj">
+      <Project>{6F615721-D769-3F44-B4FC-88897A7E2EC6}</Project>
+      <Name>TextEntryObject</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\Extensions\TextEntryObject\TextEntryObject_Runtime.vcxproj">
+      <Project>{ADB4ADAA-CFB8-36B9-ABC5-BAE76C338FC5}</Project>
+      <Name>TextEntryObject_Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\Extensions\TextObject\TextObject.vcxproj">
+      <Project>{A3EF1AE8-A595-3A0D-906A-E15BEE1D97F4}</Project>
+      <Name>TextObject</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\Extensions\TextObject\TextObject_Runtime.vcxproj">
+      <Project>{573DEF9D-54F5-31D3-B872-A476C07F8057}</Project>
+      <Name>TextObject_Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\Extensions\TiledSpriteObject\TiledSpriteObject.vcxproj">
+      <Project>{EACFF410-F9F9-31DB-BC69-0DFCC86E767A}</Project>
+      <Name>TiledSpriteObject</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\Extensions\TiledSpriteObject\TiledSpriteObject_Runtime.vcxproj">
+      <Project>{4561C235-2E32-362A-9E0D-EC2810CE7B4E}</Project>
+      <Name>TiledSpriteObject_Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\Extensions\TopDownMovementBehavior\TopDownMovementBehavior.vcxproj">
+      <Project>{145866B4-CF24-3463-A299-897FF5828B05}</Project>
+      <Name>TopDownMovementBehavior</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LibertyDevelop\Intermediate\Extensions\TopDownMovementBehavior\TopDownMovementBehavior_Runtime.vcxproj">
+      <Project>{5594C6CE-4972-3D2A-B728-3E798D60275C}</Project>
+      <Name>TopDownMovementBehavior_Runtime</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

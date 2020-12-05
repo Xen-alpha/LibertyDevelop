@@ -17,6 +17,8 @@
 
 #include "GDCore/Utf8/utf8.h"
 
+
+
 namespace sf {class String;};
 
 namespace gd
@@ -646,21 +648,21 @@ private:
  * \relates String
  * \return a String containing the concatenation of lhs and rhs.
  */
-String GD_CORE_API operator+(String lhs, const String &rhs);
+GD_CORE_API String operator+(String lhs, const String &rhs);
 
 /**
  * \relates String
  * \return a String containing the concatenation of lhs and rhs (rhs is
  * converted to gd::String assuming it's encoded in UTF8).
  */
-String GD_CORE_API operator+(String lhs, const char *rhs);
+GD_CORE_API String operator+(String lhs, const char *rhs);
 
 /**
  * \relates String
  * \return a String containing the concatenation of lhs and rhs (lhs is
  * converted to gd::String assuming it's encoded in UTF8).
  */
-String GD_CORE_API operator+(const char *lhs, const String &rhs);
+GD_CORE_API String  operator+(const char *lhs, const String &rhs);
 
 /**
  * \}
@@ -672,46 +674,46 @@ String GD_CORE_API operator+(const char *lhs, const String &rhs);
  */
 
 ///\relates String
-bool GD_CORE_API operator==( const String &lhs, const String &rhs );
+GD_CORE_API bool  operator==( const String &lhs, const String &rhs );
 ///\relates String
-bool GD_CORE_API operator==( const String &lhs, const char *rhs );
+GD_CORE_API bool  operator==( const String &lhs, const char *rhs );
 ///\relates String
-bool GD_CORE_API operator==( const char *lhs, const String &rhs );
+GD_CORE_API bool  operator==( const char *lhs, const String &rhs );
 
 ///\relates String
-bool GD_CORE_API operator!=( const String &lhs, const String &rhs );
+GD_CORE_API bool operator!=( const String &lhs, const String &rhs );
 ///\relates String
-bool GD_CORE_API operator!=( const String &lhs, const char *rhs );
+GD_CORE_API bool  operator!=( const String &lhs, const char *rhs );
 ///\relates String
-bool GD_CORE_API operator!=( const char *lhs, const String &rhs );
+GD_CORE_API bool  operator!=( const char *lhs, const String &rhs );
 
 ///\relates String
-bool GD_CORE_API operator<( const String &lhs, const String &rhs );
+GD_CORE_API bool  operator<( const String &lhs, const String &rhs );
 ///\relates String
-bool GD_CORE_API operator<( const String &lhs, const char *rhs );
+GD_CORE_API bool operator<( const String &lhs, const char *rhs );
 ///\relates String
-bool GD_CORE_API operator<( const char *lhs, const String &rhs );
+GD_CORE_API bool operator<( const char *lhs, const String &rhs );
 
 ///\relates String
-bool GD_CORE_API operator<=( const String &lhs, const String &rhs );
+GD_CORE_API bool operator<=( const String &lhs, const String &rhs );
 ///\relates String
-bool GD_CORE_API operator<=( const String &lhs, const char *rhs );
+GD_CORE_API bool operator<=( const String &lhs, const char *rhs );
 ///\relates String
-bool GD_CORE_API operator<=( const char *lhs, const String &rhs );
+GD_CORE_API bool operator<=( const char *lhs, const String &rhs );
 
 ///\relates String
-bool GD_CORE_API operator>( const String &lhs, const String &rhs );
+GD_CORE_API bool operator>( const String &lhs, const String &rhs );
 ///\relates String
-bool GD_CORE_API operator>( const String &lhs, const char *rhs );
+GD_CORE_API bool operator>( const String &lhs, const char *rhs );
 ///\relates String
-bool GD_CORE_API operator>( const char *lhs, const String &rhs );
+GD_CORE_API bool operator>( const char *lhs, const String &rhs );
 
 ///\relates String
-bool GD_CORE_API operator>=( const String &lhs, const String &rhs );
+GD_CORE_API bool operator>=( const String &lhs, const String &rhs );
 ///\relates String
-bool GD_CORE_API operator>=( const String &lhs, const char *rhs );
+GD_CORE_API bool operator>=( const String &lhs, const char *rhs );
 ///\relates String
-bool GD_CORE_API operator>=( const char *lhs, const String &rhs );
+GD_CORE_API bool operator>=( const char *lhs, const String &rhs );
 
 /**
  * \}
@@ -731,7 +733,7 @@ bool GD_CORE_API operator>=( const char *lhs, const String &rhs );
  * std::cout << myString.Raw();
  * \endcode
  */
-std::ostream& GD_CORE_API operator<<(std::ostream &os, const String &str);
+GD_CORE_API std::ostream& operator<<(std::ostream &os, const String &str);
 
 /**
  * \relates String
@@ -739,7 +741,7 @@ std::ostream& GD_CORE_API operator<<(std::ostream &os, const String &str);
  * current locale.
  * \note The content of the string is replaced.
  */
-std::istream& GD_CORE_API operator>>(std::istream &is, String &str);
+GD_CORE_API std::istream& operator>>(std::istream &is, String &str);
 
 /**
  * \}
@@ -751,14 +753,14 @@ std::istream& GD_CORE_API operator>>(std::istream &is, String &str);
  * \param compat if true, the strings are normalized using a compatibility normalization form to remove characters special appearance.
  * \return true if the two string are equivalent (in a case-sensitive way).
  */
-bool GD_CORE_API CaseSensitiveEquiv( String lhs, String rhs, bool compat = true );
+GD_CORE_API bool CaseSensitiveEquiv( String lhs, String rhs, bool compat = true );
 
 /**
  * \relates String
  * \param compat if true, the strings are normalized using a compatibility normalization form to remove characters special appearance.
  * \return true if the two string are equivalent (in a case-insensitive way).
  */
-bool GD_CORE_API CaseInsensitiveEquiv( const String &lhs, const String &rhs, bool compat = true );
+GD_CORE_API bool CaseInsensitiveEquiv( const String &lhs, const String &rhs, bool compat = true );
 
 }
 

@@ -1,0 +1,13 @@
+﻿  Extension.cpp
+D:\LibertyDevelop\Extensions\PrimitiveDrawing\Extension.cpp(566): error C2039: 'gccMajorVersion': 'gd::CompilationInfo'의 멤버가 아닙니다.
+  D:\LibertyDevelop\Core\GDCore/Extensions/PlatformExtension.h(46): note: 'gd::CompilationInfo' 선언을 참조하십시오.
+D:\LibertyDevelop\Extensions\PrimitiveDrawing\Extension.cpp(566): error C2065: '__GNUC__': 선언되지 않은 식별자입니다.
+D:\LibertyDevelop\Extensions\PrimitiveDrawing\Extension.cpp(566): error C2039: 'gccMinorVersion': 'gd::CompilationInfo'의 멤버가 아닙니다.
+  D:\LibertyDevelop\Core\GDCore/Extensions/PlatformExtension.h(46): note: 'gd::CompilationInfo' 선언을 참조하십시오.
+D:\LibertyDevelop\Extensions\PrimitiveDrawing\Extension.cpp(566): error C2065: '__GNUC_MINOR__': 선언되지 않은 식별자입니다.
+D:\LibertyDevelop\Extensions\PrimitiveDrawing\Extension.cpp(566): error C2039: 'gccPatchLevel': 'gd::CompilationInfo'의 멤버가 아닙니다.
+  D:\LibertyDevelop\Core\GDCore/Extensions/PlatformExtension.h(46): note: 'gd::CompilationInfo' 선언을 참조하십시오.
+D:\LibertyDevelop\Extensions\PrimitiveDrawing\Extension.cpp(566): error C2065: '__GNUC_PATCHLEVEL__': 선언되지 않은 식별자입니다.
+D:\LibertyDevelop\Extensions\PrimitiveDrawing\Extension.cpp(575): error C2059: 구문 오류: '__declspec(dllexport)'
+D:\LibertyDevelop\Extensions\PrimitiveDrawing\Extension.cpp(575): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+D:\LibertyDevelop\Extensions\PrimitiveDrawing\Extension.cpp(575): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?

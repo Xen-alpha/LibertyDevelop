@@ -5,6 +5,7 @@
 
 #include "GDCore/CommonTools.h"
 #include "GDCore/Events/CodeGeneration/EventsCodeGenerationContext.h"
+#include "GDCore/Events/Tools/EventsCodeNameMangler.h"
 #include "GDCore/Events/CodeGeneration/ExpressionCodeGenerator.h"
 #include "GDCore/Events/Tools/EventsCodeNameMangler.h"
 #include "GDCore/Extensions/Metadata/BehaviorMetadata.h"
@@ -662,8 +663,7 @@ gd::String EventsCodeGenerator::GenerateParameterCodes(
     // Type unknown
     if (argOutput.empty()) {
       if (!metadata.type.empty())
-        cout << "Warning: Unknown type of parameter \"" << metadata.type
-             << "\"." << std::endl;
+        cout << "Warning: Unknown type of parameter \"" << metadata.type << "\"." << std::endl;
       argOutput += "\"" + ConvertToString(parameter) + "\"";
     }
   }
